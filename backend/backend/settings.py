@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -10,7 +10,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['51.250.86.52', '127.0.0.1', 'localhost', 'taski12345.ddns.net']
 ALLOWED_HOSTS = ['51.250.86.52', 'localhost', 'taski12345.ddns.net']
-#ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
+# ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
 
 
 # Application definition
