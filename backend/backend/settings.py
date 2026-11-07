@@ -8,8 +8,8 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-# ALLOWED_HOSTS = ['51.250.86.52', '127.0.0.1', 'localhost', 'taski12345.ddns.net']
-ALLOWED_HOSTS = ['51.250.86.52', 'localhost', 'taski12345.ddns.net']
+ALLOWED_HOSTS = ['51.250.6.102', 'localhost']
+# ALLOWED_HOSTS = ['51.250.6.102', 'localhost', 'taski12345.ddns.net']
 # ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
 
 
